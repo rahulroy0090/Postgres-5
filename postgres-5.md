@@ -107,7 +107,7 @@ podman run --name postgres-slave \
     -e POSTGRES_DB=postgres \
     -e POSTGRES_USER=rahul \
     -d \
-    -p 5432:5432 \
+    -p 5433:5433 \
     -v /home/post/data/postgres/slave:/var/lib/postgresql/data \
     postgres
 
